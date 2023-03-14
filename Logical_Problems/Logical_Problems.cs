@@ -84,8 +84,24 @@ namespace Logical_Problems
             }
             Console.WriteLine("Reversed Number " + reverse);
         }
+
+        public void CheckPositiveorNegative()
+        { 
+        Console.WriteLine("Enter a number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number > 0)
+        {
+            Console.WriteLine("Number is positive");
+        }
+        else
+        {
+        Console.WriteLine("Number is negative");
+        }
+        Console.ReadLine();
     }
-}   
+}
+    }
+
 
 
 
