@@ -12,10 +12,9 @@ namespace Logical_Problems
         {
           
             Logical_Problems logicalproblems = new Logical_Problems();
-            logicalproblems.CheckEvenOrOdd();
+          
+            logicalproblems.SwapNumber();
             Console.ReadLine();
-                    
-
         }
         }
     }
