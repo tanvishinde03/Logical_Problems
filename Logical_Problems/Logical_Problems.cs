@@ -110,8 +110,25 @@ namespace Logical_Problems
                 }
             }
         }
+       public void DivisibleBy2()
+        {
+            int num;
+            Console.WriteLine("Enter a number: ");
+            num = int.Parse(Console.ReadLine());
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("Divisible by 2 ");
+            }
+            else
+            {
+                Console.WriteLine("Not divisible by 2");
+            }
+            Console.ReadLine();
+        }
     }
-    }
+}
+    
+    
 
 
 
