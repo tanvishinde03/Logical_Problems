@@ -11,7 +11,7 @@ namespace Logical_Problems
         static void Main(string[] args)
         {
             Logical_Problems logicalproblems = new Logical_Problems();
-            logicalproblems.CheckSumDigit();
+            logicalproblems.FindMultiplesOf3And5(1000);
             Console.ReadLine();
         }
         }

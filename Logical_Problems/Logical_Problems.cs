@@ -138,8 +138,22 @@ namespace Logical_Problems
             }
             Console.Write("Sum is= " + sum);
         }
+        public void FindMultiplesOf3And5(int n)
+        {
+
+            int sum =0;
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                    sum +=i;
+            }
+            Console.WriteLine("Sum of multiples of 3 and 5 are: " + sum);
+            Console.ReadLine();
+        }
     }
 }
+    
+
 
     
     
