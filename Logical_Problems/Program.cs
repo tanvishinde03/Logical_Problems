@@ -12,8 +12,7 @@ namespace Logical_Problems
         {
           
             Logical_Problems logicalproblems = new Logical_Problems();
-          
-            logicalproblems.SwapNumber();
+            logicalproblems.CheckLargestNumber();
             Console.ReadLine();
         }
         }
