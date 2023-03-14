@@ -99,7 +99,18 @@ namespace Logical_Problems
         }
         Console.ReadLine();
     }
-}
+        public void PrintOddNumber()
+        {
+            Console.WriteLine("Odd numbers from 1 to 99 are.");
+            for (int n = 1; n < (99 + 1); n++)
+            {
+                if (n % 2 != 0)
+                {
+                    Console.WriteLine(n.ToString());
+                }
+            }
+        }
+    }
     }
 
 
