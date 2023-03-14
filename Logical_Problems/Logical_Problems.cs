@@ -150,8 +150,24 @@ namespace Logical_Problems
             Console.WriteLine("Sum of multiples of 3 and 5 are: " + sum);
             Console.ReadLine();
         }
+        public void PrintMultiplesOf17()
+        {
+            int a, i;
+            Console.WriteLine("Multiples of 17 are : ");
+            for (i = 1; i < 100; i++)
+            {
+                a = i % 17;
+                if (a == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            Console.Read();
+        }
     }
+
 }
+
     
 
 
