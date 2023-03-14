@@ -56,13 +56,10 @@ namespace Logical_Problems
             int num1, num2;
 
             Console.WriteLine("Find the largest of two numbers:");
-            Console.WriteLine("------------------------------------");
-
             Console.WriteLine("Input the 1st number :");
             num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Input the  2nd number :");
             num2 = Convert.ToInt32(Console.ReadLine());
-            
 
             if (num1 > num2)
             {
@@ -73,9 +70,24 @@ namespace Logical_Problems
                  Console.WriteLine("The 2rd Number is the greatest among two.");
                 }
             }
-           
-}
+        public void ReverseNumber()
+        {
+            int n, reverse = 0, rem;
+            Console.WriteLine("Enter a number");
+            n = Convert.ToInt32(Console.ReadLine());
 
-}
+            while (n != 0)
+            {
+                rem = n % 10;
+                reverse = reverse * 10 + rem;
+                n = n / 10;
+            }
+            Console.WriteLine("Reversed Number " + reverse);
+        }
+    }
+}   
+
+
+
 
 

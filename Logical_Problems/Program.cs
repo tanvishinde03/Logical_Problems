@@ -10,9 +10,8 @@ namespace Logical_Problems
     {
         static void Main(string[] args)
         {
-          
             Logical_Problems logicalproblems = new Logical_Problems();
-            logicalproblems.CheckLargestNumber();
+            logicalproblems.ReverseNumber();
             Console.ReadLine();
         }
         }
